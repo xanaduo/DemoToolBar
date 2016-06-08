@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="app.xanaduo.com.myapplication.MainActivity">
 
+    <!--关于app:showAsAction，请参考http://blog.csdn.net/cdnight/article/details/48029135-->
+
     <item
         android:id="@+id/action_search"
         android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
