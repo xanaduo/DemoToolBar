@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.xanaduo.com.myapplication.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/xb"
+        android:text="      秀宝盒子是由武汉秀宝软件有限公司开发的一款基于AR技术，与玩具结合的增强现实的APP。用户能够ipad和手机对特定的图片进行识别，出现现实物体的3D动画效果，使图片与现实的3D动画进行交互，让用户体验到物体在真实世界与虚拟世界进行叠加的全方位。\n     秀宝盒子是一款增强现实的功能性软件套装，以AR技术（增强现实技术）作为驱动力，独有业内AR识别防抖动算法以及面向未来的服务器端，可以实现在屏幕上把虚拟世界带入现实世界并进行互动的效果。“秀宝盒子”套装包括“秀宝盒子APP”和“3D立体卡片”两部分。打开APP并扫描卡片后，卡片上的图案就会以3D立体效果鲜活的呈现在屏幕上，这种虚拟和现实相结合的技术，可以吸引孩子的兴趣让他们安静下来，也能激发孩子的艺术想象力让他们更愿意思考探索。"
+        android:textSize="18sp" />
+</RelativeLayout>
